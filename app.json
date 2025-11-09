@@ -1,0 +1,52 @@
+{
+  "configVersion": "v2",
+  "defaultLanguage": "en-US",
+
+  "targets": {
+    "gt": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gt/home/index",
+            "page/gt/search/index",
+            "page/gt/machine/index"
+          ]
+        },
+        "designWidth": 390
+      },
+      "platforms": [ { "name": "hm5", "deviceSource": 9765121 } ]
+    }
+  },
+
+  "app": {
+    "appId": 20001,
+    "appName": "PinTipZ",
+    "appType": "app",
+    "version": { "code": 1, "name": "1.0.0" },
+    "icon": "icon.png",
+
+    "vendor": "Ty",
+    "vender": "Ty",
+    "description": "PinTips on Bip 6"
+  },
+
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+
+  "pages": [
+    "page/gt/home/index",
+    "page/gt/search/index",
+    "page/gt/machine/index"
+  ],
+
+  "i18n": {
+    "en-US": "page/i18n/en-US.po",
+    "zh-CN": "page/i18n/zh-CN.po"
+  }
+}
